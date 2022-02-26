@@ -12,7 +12,9 @@ public class Main {
      
         Model model = new Model();               // Create shared database
         Controller1 c1 = new Controller1(model); // Create first controller
-        Controller2 c2 = new Controller2(model); // Create second controller
+        Controller2 c2 = new Controller2(model, "Controller2"); // Create second controller
+        Controller2 c3 = new Controller2(model, "Controller3")// Create thrid controller 
+        Controller2 c4 = new Controller2(model, "Controller4") // Create forth controller 
         
     } // main
   
