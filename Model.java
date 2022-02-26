@@ -24,6 +24,15 @@ public class Model extends Observable {
         return dataBaseA;
         
     } // getDataA
+    
+    
+    public void modifyB() {        // Mutator method for B component
+        
+        dataBaseB++;
+        setChanged();
+        notifyObservers();         // Note: notifies ALL Observing views
+        
+    } // modifyB
  
     public int getDataB() {
         
