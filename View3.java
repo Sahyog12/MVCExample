@@ -5,6 +5,8 @@ package mvcexample;
 // As supplied, this view does not subscribe to the model as an Observer,
 // and relies on its controller to call update to cause the view to be refreshed.
 
+
+//hello
 import java.util.*;  // For Observer
 import java.awt.*;
 import javax.swing.*;
